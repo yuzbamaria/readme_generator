@@ -104,8 +104,11 @@ async function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
-}
+    inquirer.prompt(questions).then((responses) => {
+        console.log("Creating Professional README.md File...");
+        writeToFile("./dist/README.md", generateMarkdown({ ...responses }));
+      });
+    }
 
 // function call to initialize program
 init();
