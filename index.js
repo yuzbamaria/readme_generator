@@ -69,10 +69,14 @@ const promptUser = () =>
 
 
 // function to write README file
+// When a function is marked with async and it contains the await keyword, 
+// the expression following await is expected to be a Promise. 
+// The await keyword pauses the execution of the async function until the Promise is resolved.
 async function writeToFile(fileName, data) {
     // try-catch statement for handling errors
     try {
         // Step 1: Create the full path to the file
+        // Ensure the correct working directory is used when constructing the full path
         // path.join() takes one or more path segments as arguments and joins them together
         // process.cwd() returns the current working directory of the Node.js process.
         const fullPath = path.join(process.cwd(), fileName);
