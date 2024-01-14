@@ -1,5 +1,5 @@
 // External packages
-const fs = require("fs");
+const fs = require("fs").promises;
 // imports the Node.js built-in module path into your script or application. 
 // The path module provides utilities for working with file and directory paths.
 // The path module takes the responses (array questions) and puts them in generateMarkdown.js
@@ -15,13 +15,13 @@ const questions = [
     {
         type: 'input',
         name: 'username',
-        name: 'What is your Github username?',
+        message: 'What is your Github username?',
         // validation: 
     },
     {
         type: 'input',
         name: 'email',
-        name: 'What is your email',
+        message: 'What is your email',
     },
     {
         type: 'input',
@@ -41,18 +41,18 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        name: 'How can your project be used?',
+        message: 'How can your project be used?',
     },
     {
         type: 'list',
         name: 'license',
         message: 'Choose a license for your project:',
-        choices: ['MIT', 'Apache-2.0', 'GPL-3.0', 'Boost1.0', 'None'],
+        choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'Boost1.0', 'None'],
     },
     {
         type: 'input',
         name: 'contributors',
-        name: 'Who contributed to this project? Please, use Github usernames)',
+        message: 'Who contributed to this project? Please, use Github usernames)',
         default: '',
     },
     {
@@ -62,11 +62,6 @@ const questions = [
     },
 ];
 
-
-// const promptUser = () =>
-//   inquirer.prompt(
-//     );
-  
 
 
 // function to write README file
