@@ -18,3 +18,14 @@ My task was to apply the skills I got and make a command-line app that will dyna
 
 ## User story
 
+As a developer, I want a README generator so that I can quickly create a professional README for a new project
+
+## Acceptance Criteria
+
+## Video 
+
+A walkthrough video demonstrating the functionality of the application.
+
+## Sample README.md
+A sample README.md file for a project repository generated using your application
+
