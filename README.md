@@ -11,9 +11,7 @@ Check out the [Link to Sample README](dist/sampleREADME.md) in this repo as an e
 1. [User story](#user_story)
 2. [Acceptance Criteria](#acceptance_criteria)
 3. [Installation](#installation)
-4. [Collaboration](#collaboration )
-5. [Resources](#resources)
-6. [License](#license)
+4. [License](#license)
 
 ## User story
 
