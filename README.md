@@ -47,5 +47,7 @@ After all dependencies are installed, execute the ```node index.js``` command.
 
 ## License 
 This project is licensed under MIT license.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 
