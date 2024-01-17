@@ -46,8 +46,7 @@ To set up this project, open the terminal and execute the ```npm install``` comm
 After all dependencies are installed, execute the ```node index.js``` command.
 
 ## License 
-This project is licensed under MIT license.
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This project is licensed under [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 
