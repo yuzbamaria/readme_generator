@@ -42,8 +42,8 @@ Check out the [Link to Sample README](dist/sampleREADME.md) in this repo as an e
     - When a user clicks on the links in the Table of Contents then they are taken to the corresponding section of the README
 
 ## Installation 
-To set up this project, open the terminal and execute the 'npm install' command within the repository folder.  
-After all dependencies are installed, execute the 'node index.js' command.
+To set up this project, open the terminal and execute the ```npm install``` command within the repository folder.  
+After all dependencies are installed, execute the ```node index.js``` command.
 
 ## License 
 This project is licensed under MIT license.
