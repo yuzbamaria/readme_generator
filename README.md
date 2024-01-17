@@ -12,6 +12,7 @@ Check out the [Link to Sample README](dist/sampleREADME.md) in this repo as an e
 2. [Acceptance Criteria](#acceptance_criteria)
 3. [Installation](#installation)
 4. [License](#license)
+5. [Badges(#badges)
 
 ## User story
 
