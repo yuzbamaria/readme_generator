@@ -16,7 +16,9 @@ My task was to apply the skills I acquired and make a command-line app that will
 
 ## User story
 
-```As a developer, I want a README generator so that I can quickly create a professional README for a new project```
+```As a developer, 
+I want a README generator
+so that I can quickly create a professional README for a new project```
 
 ## Acceptance Criteria
 
