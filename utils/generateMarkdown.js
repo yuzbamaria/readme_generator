@@ -17,11 +17,12 @@ function renderLicenseSection(license) {
     } return '';
 }
 
-
   // function to generate markdown for README
 function generateMarkdown(data) {
 return `# ${data.title}
 ${renderLicenseBadge(data.license)}
+## Description
+${data.description}
 ## Table of Contents
 * [Description](#description)
 * [Installation](#installation)
@@ -30,19 +31,17 @@ ${renderLicenseBadge(data.license)}
 * [Tests](#tests)
 ${renderLicenseLink(data.license)}
 * [Questions](#questions)
-## Description
-${data.description}
 ## Installation
 ${data.installation}
 ## Usage
 ${data.usage}
+${renderLicenseSection(data.license)}
 ## Contributors
 ${data.contributors}
 ## Tests
 ${data.tests}
-${renderLicenseSection(data.license)}
 ## Questions
-Please send your questions [here](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect) or visit [github/${data.username}](https://github.com/${data.username}).
+If you have any questions about the repo, open an issue or contact me directly at [here](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect). You can find more of my work at [github/${data.username}](https://github.com/${data.username}).
 `;
   }
   module.exports = generateMarkdown;

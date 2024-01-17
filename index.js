@@ -21,7 +21,7 @@ const questions = [
     {
         type: 'input',
         name: 'email',
-        message: 'What is your email',
+        message: 'What is your email?',
     },
     {
         type: 'input',
@@ -47,7 +47,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Choose a license for your project:',
-        choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'Boost1.0', 'None'],
+        choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'Boost 1.0', 'None'],
     },
     {
         type: 'input',
@@ -59,10 +59,9 @@ const questions = [
         type: 'input',
         name: 'tests',
         message: 'Please provide walkthrough of required tests if applicable',
+        default: 'No tests at this time',
     },
 ];
-
-
 
 // function to write README file
 // When a function is marked with async and it contains the await keyword, 
@@ -93,7 +92,7 @@ async function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then((responses) => {
         console.log("Creating Professional README.md File...");
-        writeToFile("./dist/README.md", generateMarkdown({ ...responses }));
+        writeToFile("./dist/sampleREADME.md", generateMarkdown({ ...responses }));
       });
     }
 
