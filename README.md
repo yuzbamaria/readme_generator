@@ -2,7 +2,6 @@
 
 ## Description 
 
-This is the solution for the challenge from EdX bootcamp, Week 11.  
 My learning objective was to differentiate between ```JavaScript``` in the browser and ```Node.js``` environments, and also ```ES6```.  
 The task is to make a command-line app that will dynamically generate a professional README file from a user's input using the Inquirer package.  
 Check out the [Link to Sample README](dist/sampleREADME.md) in this repo as an example. 
